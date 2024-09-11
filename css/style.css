@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: tan;
+    color:rgb(93, 50, 12) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header, footer{
+    background-color: rgb(93, 50, 12);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 46px;
+}
+header ul{
+    list-style:none;
+    display: inline;
+}
+li{
+    display: inline;
+}
+header li a{
+    display:inline;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+}
+header li a.selected{
+    background-color: #59331D;
+}
+.hero h1{
+    color: tan;
+    opacity: 0.8;
+}
+.hero{
+    height: 400px;
+    background-image: url(https://img.freepik.com/free-photo/top-view-workspace-with-succulent-cup-coffee_23-2148430830.jpg?t=st=1726031545~exp=1726035145~hmac=1b77b6fa0544fa2193f6b61fb7ef91dca55ba8f3a25112fcd9618cafd1990dd5&w=1800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.heroContent {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+.hero h1 {
+    margin: 0;
+    width: 300px;
+}
+.imageArticle {
+    max-width: 1400px;
+    padding: 100px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imageArticle.content {
+    width: 50%;
+}
+.imageArticle img {
+    width: 30%;
+    height: 600px;
+    object-fit: cover;
+}
+a {
+    color: #59331D;
+    text-decoration: none;
+}
+.btnPrimary {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 18px;
+    color:white;
+    text-decoration: none;
+}
+.media img{
+    height: 32px;
+}
